@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+<form method="POST"> <!--POST no se ve los datos, y GET se muestran en la URL la busqueda - Por seguridad no se usa GET--> 
+    <label for="nombre">Nombre:</label><input type="text" name="nombre" placeholder="Escribe tu nombre" required/>
+    <br><br/>
+    <label for="edad">Edad:</label><input type="number" step="5" min="0" max="100"/>
+    <br><br/>
+    <label for="pass">Contraseña</label><input type="password" name="pass"/>
+    <br><br/>
+    <label for="pass">Su archivo</label><input type="file" name="Añadir archivo"/>
+    <br><br/>
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
+
+    <input type="reset" value="Borrar"/>
+    <input type="submit" value="Enviar"/>
+
+</form>    
+
+
+
+
+    
+</body>
+</html>
