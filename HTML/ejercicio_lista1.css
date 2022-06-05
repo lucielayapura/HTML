@@ -1,0 +1,22 @@
+ol:nth-child(1){               /*colorea las celdas pares del tbody*/
+    font-weight: bold;
+}
+
+.texto1{
+    color:red;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.texto2{
+    color:blue;
+    text-align:center;
+    text-transform: lowercase;
+}
+
+.texto3{
+    color:green;
+    text-align: left;
+    text-transform: capitalize;
+}
+
